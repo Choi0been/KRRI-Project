@@ -29,7 +29,7 @@ def save_processed_files(file_path, processed_files):
     with open(file_path, 'w') as f:
         json.dump(list(processed_files), f)
 
-def Main_check():
+# def Main_check():
 #     try:
 #         print("초기화 시작...")
 #         # 경로 설정
